@@ -1,0 +1,5 @@
+  update:
+   steps:
+     - checkout
+     - run:
+         command: bash ansible-playbook ~/ansible4aredn/examples/firmware-update/update.yml
